@@ -1,9 +1,9 @@
-<style>
+
 #header {
-    background-color:black;
+    
     color:white;
     text-align:center;
-    padding:5px;
+    padding:8px 0px 8px 0px;
     
 }
 {
@@ -24,8 +24,7 @@
     float:left;
     padding:5px; 
     position: relative;
-    font-family: impact;
-   
+       
 }
 #section {
     
@@ -53,18 +52,27 @@
     height: 5em;
     margin: 30%;
 }
+#head3 {
+    
 }
+
+
+
 
 img {
     position: relative;
     left: 0px;
     top: 0px;
     z-index: -1;
+    
+
 }
  
  h1 {
     font-family: cursive;
     font-size: 45px;
+    color: #332512;
+    outline: blue;
 
  }
  a {
@@ -96,6 +104,13 @@ a:hover {
  float: right;
 
 }
+.social-icon {
+    float: center;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
 
 p {
     font-size: 28px;
@@ -106,5 +121,5 @@ body, {
 }
 
 
-</style>
+
 
