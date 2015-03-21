@@ -1,21 +1,11 @@
-
-#header {
-    
+#header {    
     color:white;
     text-align:center;
     padding:8px 0px 8px 0px;
-    
 }
-{
-    }
-
 #header2 {
     text-align: center;
 }
-
-
-
-
 #nav {
     line-height:30px;
     /*background-color:#D4DBC8;*/
@@ -24,10 +14,8 @@
     float:left;
     padding:5px; 
     position: relative;
-       
 }
 #section {
-    
     width:750px;
     float:right;
     padding:10px; 
@@ -40,13 +28,10 @@
     padding:0px ;
     height: 3em;
     margin: 25%;
-
 }
-
 #footer2 {
     position: bottom;
-    color:black;
-    
+    color:black;   
     text-align:center;
     padding:40px ;
     height: 5em;
@@ -55,33 +40,25 @@
 #head3 {
     
 }
-
-
-
-
 img {
     position: relative;
     left: 0px;
     top: 0px;
     z-index: -1;
-    
-
 }
- 
- h1 {
+h1 {
     font-family: cursive;
     font-size: 45px;
     color: #332512;
     outline: blue;
 
- }
- a {
+}
+a {
     font-family: fantasy;
     font-size: 25px;
     color: blue;
 
- }
-
+}
 a:hover {
     color: red;
 }
@@ -95,14 +72,9 @@ a:hover {
 #section3 {
     position: relative;
     float: center;
-    
-
 }
-
 #section4 {
-
- float: right;
-
+   float: right;
 }
 .social-icon {
     float: center;
@@ -110,8 +82,6 @@ a:hover {
     width: 30px;
     text-align: center;
 }
-
-
 p {
     font-size: 28px;
     color: ;
