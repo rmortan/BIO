@@ -1,4 +1,6 @@
-#header {    
+#header { 
+    width: 100%;
+    background: #f0f0f0;   
     color:white;
     text-align:center;
     padding:8px 0px 8px 0px;
@@ -14,6 +16,13 @@
     float:left;
     padding:5px; 
     position: relative;
+}
+#content {
+    width:960px;
+    background: #F0F0F0;
+    border: 1px solid #CCC;
+    height: 1000px;
+    margin: 70px auto;
 }
 #section {
     width:750px;
@@ -38,7 +47,32 @@
     margin: 30%;
 }
 #head3 {
-    
+}
+#section2 {
+    position: relative;
+    width: 250px;
+    float: right;
+    padding: 10px;
+}
+#section3 {
+    position: relative;
+    float: center;
+}
+#section4 {
+   float: right;
+}
+.social-icon {
+    float: center;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+p {
+    font-size: 28px;
+    color: ;
+}
+body {
+    background-image: url("BIO/img/featured47@wdd2x.jpg");
 }
 img {
     position: relative;
@@ -63,32 +97,6 @@ a:hover {
     color: red;
 }
 
-#section2 {
-    position: relative;
-    width: 250px;
-    float: right;
-    padding: 10px;
-}
-#section3 {
-    position: relative;
-    float: center;
-}
-#section4 {
-   float: right;
-}
-.social-icon {
-    float: center;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-}
-p {
-    font-size: 28px;
-    color: ;
-}
-body, {
-    background: repeat;
-}
 
 
 
