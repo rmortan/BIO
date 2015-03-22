@@ -1,6 +1,5 @@
 #header { 
-    width: 100%;
-    background: #f0f0f0;   
+    width: 100%;   
     color:white;
     text-align:center;
     padding:8px 0px 8px 0px;
@@ -19,9 +18,7 @@
 }
 #content {
     width:960px;
-    background: #F0F0F0;
-    border: 1px solid #CCC;
-    height: 1000px;
+    height: 700px;
     margin: 70px auto;
 }
 #section {
@@ -72,7 +69,7 @@ p {
     color: ;
 }
 body {
-    background-image: url("BIO/img/featured47@wdd2x.jpg");
+    background-image: url("../img/Nudel-Blue-Light.png");
 }
 img {
     position: relative;
