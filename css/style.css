@@ -50,6 +50,7 @@
     width: 250px;
     float: right;
     padding: 10px;
+    border-width: 100px;
 }
 #section3 {
     position: relative;
@@ -64,6 +65,21 @@
     width: 30px;
     text-align: center;
 }
+* {margin:0; padding:0;}
+
+div#menu {width:184px; background:url() top no-repeat; padding-top:44px;}
+
+div#menubody {background:url() repeat-y; padding-left:21px;}
+
+div#menubottom {height:26px; background:url() bottom no-repeat;}
+
+ul#menulist {width:144px; list-style-type:none;}
+
+ul#menulist li {height:27px; background:url() bottom repeat-x;}
+
+ul#menulist a {width:122px; height:20px; border-left:#75c5de 10px solid; font:bold 10px Verdana, Arial, sans-serif; color:#ffffff; text-decoration:none; padding:5px 0 0 10px; display:block !important; display:inline-block;}
+
+ul#menulist a:hover {background:url() left repeat-y;}
 p {
     font-size: 28px;
     color: ;
