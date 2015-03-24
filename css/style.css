@@ -68,7 +68,8 @@
     text-align: center;
 }
 #wrapper {
-    width: 900px;
+    width: 1750px;
+    border-width: 50px;
 }
 * {margin:0; padding:0;}
 
