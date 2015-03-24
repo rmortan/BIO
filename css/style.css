@@ -67,6 +67,9 @@
     width: 30px;
     text-align: center;
 }
+#wrapper {
+    width: 900px;
+}
 * {margin:0; padding:0;}
 
 div#menu {width:100px; background:url("../img/backround2.jpeg") top no-repeat; padding-top:44px;}
@@ -111,16 +114,3 @@ a {
 a:hover {
     color: red;
 }       
-/* CSS for images inside item wrapper */
-.kc-item img {
-    position:absolute;
-    pointer-events: none;   /* Make images non-selectable. */
-    width:100%;             /* Make images expand to wrapper size. */
-}
-
-
-
-
-
-
-
