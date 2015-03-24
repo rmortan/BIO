@@ -4,12 +4,50 @@
      <meta charset="utf-8" />
      <title>Rafael's Bio</title>
      <link href="css/style.css" rel="stylesheet">
+                         <!-- Include jQuery -->
+      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+                           <!-- Include KillerCarousel CSS -->
+    <link href="killercarousel.css" type="text/css" rel="stylesheet" />
+
+                  <!-- Include KillerCarousel JavaScript -->
+      <script type="text/javascript" src="killercarousel.js"></script>
+      <!-- Style for the carousel items. -->
+        <style type = "text/css">
+
+            /* CSS for images inside item wrapper */
+            .kc-item img {
+                position:absolute;
+                pointer-events: none;   /* Make images non-selectable. */
+                width:100%;             /* Make images expand to wrapper size (used in 2d modes). */
+            }
+        </style>
+
+        <script type = "text/javascript">
+    
+            // Create the carousel.
+            $(function() {
+                $('.kc-wrap').KillerCarousel({
+                    // Default natural width of carousel.
+                    width: 800,
+                    // Item spacing in 3d (has CSS3 3d) mode.
+                    spacing3d: 120,
+                    // Item spacing in 2d (no CSS3 3d) mode. 
+                    spacing2d: 120,
+                    showShadow: true,
+                    showReflection: true                    
+                });
+            });
+        </script>        
+
   </head>
-   <div id="header">
-          <h1>Rafael Mortan's Bio</h1>
-   </div>
-   <div id="img2">
+  <body>
+    <header id="header">
+      <h1>Rafael Mortan's Bio</h1>
+    </header>    
+    <div id="img2">
       <img src="img/IMG-20120727-WA0002.jpg" height="50" width="90">
+    </div>
      <div id="menu">
       <div id="menubody">
         <ul id="menulist">
@@ -18,9 +56,50 @@
           <li><a href="picture.html">Pictures</a></li>
         </ul>
       </div>
+    <div id="menubottom"></div>
+    </div>
+             <!-- Main wrapping parent. -->
+    <div class = "kc-wrap">
+
+               <!-- Carousel items follow. -->
+
+     <div class="kc-item">
+        <img src="img/url.jpg" height="77" width="84" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="img/Beautiful Eyes - SongsIndia.Net.jpg" height="40" width="80" alt = "" >
+     </div> 
+     <div class="kc-item">
+        <img src="img/35-most-beautiful-butterfly-pictures-10.jpg" height="25" width="40" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image4.jpg" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image5.jpg" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image6.jpg" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image7.jpg" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image8.jpg" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image9.jpg" alt = "" >
+     </div>
+     <div class="kc-item">
+        <img src="image10.jpg" alt = "" >
+      </div>
+
+     </div>
+
+     
     <div id="footer2">
-              Copyright © Rafael Mortan
-      <a href="http://twitter.com/SirSIg">
+           <p>Copyright © Rafael Mortan</p>
+        <a href="http://twitter.com/SirSIg">
           <img src="img/tweeter.jpg" alt="Twitter Logo"class="social-icon">
         </a>
         <a href="http://facebook.com/Rafael Mortan">
@@ -28,7 +107,8 @@
         </a>
         <a href="http://google.com/Rafael Mortan">
           <img src="img/gmail.jpg"  alt="Gmail Logo" class="social-icon">
+        </a>    
+     </div>
     </div>
-
   </body>
 </html>

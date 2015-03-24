@@ -110,7 +110,15 @@ a {
 }
 a:hover {
     color: red;
+}       
+/* CSS for images inside item wrapper */
+.kc-item img {
+    position:absolute;
+    pointer-events: none;   /* Make images non-selectable. */
+    width:100%;             /* Make images expand to wrapper size. */
 }
+
+
 
 
 
