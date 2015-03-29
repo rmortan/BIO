@@ -1,19 +1,9 @@
 #header h1 {
     background-image: url("../img/mcato-funinthesun-solid (7).jpg");
-    max-height: 100%;
     color: #191304;
     text-align:center;
-    padding:10px;
-}
-
-#nav {
-    line-height:30px;
-    color:#100633;
-    max-height:35%;
-    max-width:50%;
-    float:left;
-    padding:50px; 
-    position: relative;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
 }
 #content {
     width:960px;
@@ -42,58 +32,43 @@
     padding: 10px;
     border-width: 100px;
 }
-#section3 {
-    position: relative;
-    float: center;
-}
-#section4 {
-   float: right;
-}
+
 .social-icon {
     float: center;
     height: 30px;
     width: 30px;
     text-align: center;
 }
-
-* {margin:0; padding:0;
+ul#navlist
+{
+margin: 0 0 0 0px;
+padding: 0;
+width: 12%;
 }
 
-div#menu {
-    width:100px; 
-    background:url("../img/backround2.jpeg") top no-repeat; 
-    padding-top:44px;
+#navlist li
+{
+list-style-type: none;
+background-color: #191970;
+color: #0DD9FC;
+border: .2em solid #0DD9FC;
+font-weight: 600;
+text-align: center;
+padding: .3em;
+margin-bottom: .1em;
 }
 
-div#menubody {
-    background:url() repeat-y; 
-    padding-left:21px;
+#navlist li a
+{
+color: #0DD9FC;
+text-decoration: none;
+display: block;
 }
 
-ul#menulist {
-     width:144px; 
-     list-style-type:none;
- }
-
-ul#menulist li {
-    height:27px; 
-    background:url() bottom repeat-x;
-}
-
-ul#menulist a {
-    width:122px; 
-    height:20px; 
-    border-left:#75c5de 10px solid; 
-    font:bold 10px Verdana, Arial, sans-serif; 
-    color:#ffffff; 
-    text-decoration:none; 
-    padding:5px 0 0 10px; 
-    display:block; 
-    display:inline-block;
-}
-
-ul#menulist a:hover {
-    background:url() left repeat-y;
+#navlist li a:hover
+{
+background-color: #faebd7;
+color: #191970;
 }
 p {
     font-size: 28px;
@@ -103,7 +78,6 @@ body {
     background-image: url("../img/Nudel-Blue-Light.png");
     margin:0;
     padding:0;
-    height:50%;
 }
 img {
     position: relative;
@@ -126,4 +100,5 @@ a {
 }
 a:hover {
     color: red;
-}       
+}
+
