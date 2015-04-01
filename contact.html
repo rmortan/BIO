@@ -4,6 +4,17 @@
      <meta charset="utf-8" />
      <title>Rafael's Bio</title>
      <link href="css/style.css" rel="stylesheet">
+
+        <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+          function initialize() {
+          var mapProp = {
+          center:new google.maps.LatLng(42.7598, 71.4208),
+          zoom:1,
+          mapTypeId:google.maps.MapTypeId.ROADMAP};
+          var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);}
+          google.maps.event.addDomListener(window, 'load', initialize);
+       </script>
   </head>
   <body>
     <header id="header">
@@ -18,10 +29,10 @@
          </ul>
       </div>
       <div id="section2">
-         <img src="img/Taino_-_Zemi_-_Walters_20056_-_Left_Side.jpg" height="250" width="300">
-         <img src="img/Beautiful Eyes - SongsIndia.Net.jpg" height="250" width="300">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat rem sapiente perferendis ipsum incidunt. Ipsa eveniet, accusamus. Ullam, error saepe temporibus ad voluptatum iusto odit rem, facilis provident a quas?</p>
       </div>
       <div id="content">
+       <div id="googleMap" style="width:500px;height:380px;"></div>
         <h1>Telephone</h1>          
          <h2><a href="http://www.sass.com">(603)438-2517</a></h2>
         <h1>Address</h1>
@@ -29,6 +40,8 @@
         <h1>Email</h1>
          <h2><a href="http://www.youtube.com">01rmortan5@gmail</a></h2>
       </div>
+      
+
       <div id="footer">
            <p>Copyright © Rafael Mortan</p>
         <a href="http://twitter.com/SirSIg">

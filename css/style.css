@@ -2,20 +2,16 @@
     background-image: url("../img/mcato-funinthesun-solid (7).jpg");
     color: #191304;
     text-align:center;
-    margin: 0px 0px 0px 0px;
+    /*margin: 0px 0px 0px 0px;*/
+    margin: 0px auto;
     padding:0px 0px 0px 0px;
+    width: 100%;
 }
 #content {
     width:960px;
     height: 900px;
     margin: 70px auto;
 }
-#section {
-    width:950px;
-    height: 500px;
-    margin: 50px right;
-}
-
 #footer {
     position: bottom;
     font-size: -11px;
@@ -27,10 +23,9 @@
 }
 #section2 {
     position: relative;
-    width: 1250px;
-    float: right;
-    padding: 10px;
-    border-width: 100px;
+    width: 950px;
+    padding: 10px 50px 0px 50px;
+    border-width: 50px;
 }
 
 .social-icon {
@@ -76,6 +71,7 @@ p {
 }
 body {
     background-image: url("../img/Nudel-Blue-Light.png");
+    max-width: 150%;
     margin:0;
     padding:0;
 }
@@ -90,7 +86,6 @@ h1 {
     font-size: 45px;
     color: #332512;
     outline: blue;
-
 }
 a {
     font-family: fantasy;
