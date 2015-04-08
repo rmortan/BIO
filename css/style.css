@@ -31,7 +31,10 @@ ul#navlist {
    width: 12%;
 }
 #navcontainer {
-    
+    position: relative;
+    height: 70px;
+    width: 200px;
+    left: 0px; 
 } 
 
 #navlist li
